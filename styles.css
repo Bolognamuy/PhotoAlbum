@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    border: 2px solid black;
+}
+
+.nav-items{
+    border: 2px solid rgb(52, 76, 154);
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+.nav-items:hover{
+    box-shadow: 2px 4px blue;
+}
+
+.nav-items a{
+    text-decoration: none;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+main{
+    border: 2px solid red;
+}
+
+form{
+    /* border: 2px solid blue; */
+    width: 100%;
+    max-width: 800px;
+    margin: 5rem auto;  
+}
+
+form input[type="search"]{
+    padding: 12px;
+    width: 80%;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+form input[type="search"] ::placeholder{
+    font-size: 15px;
+    background-color: aqua;
+}
+
+form button{
+    padding: 10px;
+    width: 19.9%;
+    border-radius: 20px;
+    margin-left: -5px;
+    background-color: black;
+    color: beige;
+    font-size: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+form button:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+
+.sec{
+    /* border: 2px solid black; */
+    width: 100%;
+    max-width: 950px;
+    margin: 5rem auto;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.box{
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 40vh;
+}
+
+
+.image-wrapper{
+    border: 3px solid black;
+    height: 30vh;
+    border-radius: 25px;
+    border-left: 0;
+    border-right: 0;  
+}
+
+.image-wrapper img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.person-name{
+    border: 2px solid black;
+    border-radius: 25px;
+    border-left: 0;
+    border-right: 0; 
+    text-align: center;
+    margin-top: 5px;
+}
+/* .person-name:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: brown;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
